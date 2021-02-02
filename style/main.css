@@ -1,3 +1,4 @@
+
 @import url(fonts/clear-sans.css);
 html, body {
   margin: 0;
@@ -5,7 +6,8 @@ html, body {
   background: #faf8ef;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 18px; 
+}
 
 body {
   margin: 80px 0; }
@@ -16,7 +18,7 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -233,10 +235,10 @@ hr {
   height: 107px;
   line-height: 107px; }
 .tile.tile-position-1-1 {
-  -webkit-transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px)
   -moz-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px); }
+  transform: translate(0px, 0px);}
 .tile.tile-position-1-2 {
   -webkit-transform: translate(0px, 121px);
   -moz-transform: translate(0px, 121px);
@@ -313,6 +315,8 @@ hr {
   -ms-transform: translate(363px, 363px);
   transform: translate(363px, 363px); }
 
+
+
 .tile {
   position: absolute;
   -webkit-transition: 100ms ease-in-out;
@@ -320,49 +324,84 @@ hr {
   transition: 100ms ease-in-out;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
-  transition-property: transform; }
+  transition-property: transform; 
+}
   .tile .tile-inner {
     border-radius: 3px;
-line-height: 15px;
-color: rgba(255,255,255,0.05);
-    font-size: 14px; }
+color: rgba(255,255,255,0.3);
+   }
   .tile.tile-2 .tile-inner {
 background: url("../meta/xj.jpg");
-background-size: contain; }
+background-size: contain; 
+	  font-size: 12px;
+	  line-height: 15px;
+}
   .tile.tile-4 .tile-inner {
 	background: url("../meta/sims.jpg");
-	background-size: contain; }
+	background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-8 .tile-inner {
 background: url("../meta/myl.jpg");
-background-size: contain;}
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-16 .tile-inner {
 background: url("../meta/acd.jpg");
 background-size: contain;
+	  font-size: 12px;
+	  line-height: 15px;
  }
   .tile.tile-32 .tile-inner {
 background: url("../meta/txj.jpg");
-background-size: contain; }
+background-size: contain; 
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-64 .tile-inner {
 background: url("../meta/ted.jpg");
-background-size: contain;}
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-128 .tile-inner {
 background: url("../meta/bme.jpg");
-background-size: contain; }
+background-size: contain; 
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-256 .tile-inner {
 background: url("../meta/yhy.jpg");
-background-size: contain;}
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-512 .tile-inner {
 background: url("../meta/mtdhz.jpg");
-background-size: contain; }
+background-size: contain; 
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-1024 .tile-inner {
 background: url("../meta/qy1.jpg");
-background-size: contain;}
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
   .tile.tile-2048 .tile-inner {
 background: url("../meta/gysndyq.jpg");
-background-size: contain;}
-  .tile.tile-super .tile-inner {
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
+  .tile.tile-4096 .tile-inner {
 background: url("../meta/qy2.jpg");
-background-size: contain; }
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
+  .tile.tile-8192 .tile-inner {
+background: url("../meta/8192.jpg");
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
+.tile.tile-super .tile-inner { 
+background: url("../meta/super.jpg");
+background-size: contain;
+font-size: 12px;
+	  line-height: 15px;}
 
 @-webkit-keyframes appear {
   0% {
